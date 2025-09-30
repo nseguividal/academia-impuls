@@ -7,6 +7,7 @@ import DashboardPage from './components/pages/DashboardPage';
 import ResourcesPage from './components/pages/ResourcesPage';
 import SelectividadPage from './components/pages/SelectividadPage';
 import ContactPage from './components/pages/ContactPage';
+import PrivacityPolicyPage from './components/pages/PrivacityPolicyPage';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/selectividad" element={<SelectividadPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<PrivacityPolicyPage />} /> 
       </Routes>
     </HashRouter>
   );

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 
-const PrivacyPolicyPage: React.FC = () => {
+const PrivacityPolicyPage: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -54,4 +55,4 @@ const PrivacyPolicyPage: React.FC = () => {
   );
 };
 
-export default PrivacyPolicyPage;
+export default PrivacityPolicyPage;
