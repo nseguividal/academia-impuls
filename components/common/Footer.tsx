@@ -13,9 +13,15 @@ const Footer: React.FC = () => {
                         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Acadèmia Impuls</h2>
                     </div>
                      <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-center md:justify-start">
-                        <Link to="/privacy-policy" className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="#">Política de Privacitat</Link>
+                        <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="/privacy-policy">Política de Privacitat</Link>
                         <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="#">Termes i Condicions</Link>
                         <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="/contact">Contacte</Link>
+                    </div>
+                    <div>
+                        <p className="font-bold text-gray-900 dark:text-white">Segueix-nos</p>
+                        <div className="mt-4 flex space-x-4 text-gray-600 dark:text-gray-400">
+                        {/* Social media icons can be added here */}
+                        </div>
                     </div>
                 </div>
                 <p className="mt-8 text-center text-sm text-slate-500 dark:text-slate-400">© 2024 Acadèmia Impuls. Tots els drets reservats.</p>
