@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Acadèmia Impuls</h2>
                     </div>
                      <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-center md:justify-start">
-                        <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="#">Política de Privacitat</Link>
+                        <Link to="/privacy-policy" className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="#">Política de Privacitat</Link>
                         <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="#">Termes i Condicions</Link>
                         <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="/contact">Contacte</Link>
                     </div>
