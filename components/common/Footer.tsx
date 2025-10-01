@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                                 <img 
                                     src="/academia-impuls/instagram-logo.png" 
                                     alt="Instagram logo" 
-                                    className="h-10 w-10 object-contain" 
+                                    className="h-8 w-8 object-contain" 
                                 />
                             </a>
                             <a href="https://www.youtube.com/channel/ID_del_canal" target="_blank" rel="noopener noreferrer">
