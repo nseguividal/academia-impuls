@@ -60,10 +60,12 @@ Create a new version of the static site:
 
 `npm run build`   # genera la carpeta dist/ amb la web estàtica
 
+This generates the dist/ folder.
+
+6️⃣ Veure un preview de la WEB (localment)
+
 `npm run preview` # preview de com es veuria GitHub Pages els fitxers 
 
-
-This generates the dist/ folder.
 
 6️⃣ Deploy to GitHub Pages
 
@@ -75,30 +77,22 @@ Option A: Manual way (what you’re doing now)
 `git push origin gh-pages --force`
 `cd ..`
 
+7️⃣ Visualitzar Web amb GitHub
+Despres del `npm run build` i des del directori principal, he de fer:
 
-Option B: Recommended way (simpler) → Use gh-pages package:
+ `git checkout gh-pages`
+ 
+ `cp -r dist/* .`  # Copiar els fitxers del build (dist) a gh-pages
 
-Install:
+ `git add .`  # afegir fitxers al git
 
-`npm install --save-dev gh-pages`
+ `git commit -m "Deploy new build"`  # fer le commit
 
-
-Add to package.json scripts:
-
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
+ `git push origin gh-pages --force`  # pujar-ho a GitHub
 
 
-Deploy with:
 
-`npm run deploy`
-
-
-👉 This automatically builds and pushes dist/ to gh-pages without needing to cd dist.
-
-7️⃣ Check your site
+👉 Check your site
 
 Go to:
 
