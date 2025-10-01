@@ -64,7 +64,7 @@ This generates the dist/ folder.
 
 6️⃣ Veure un preview de la WEB (localment)
 
-`npm run preview` # preview de com es veuria GitHub Pages els fitxers 
+`npm run dev` # preview de com es veuria GitHub Pages els fitxers (servei de desenvolupament)
 
 
 7️⃣ Visualitzar Web amb GitHub
