@@ -31,12 +31,14 @@ const Footer: React.FC = () => {
                         <Link className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" to="/contact">Contacte</Link>
                     </div>
                     <div className="flex items-center gap-2">
-                        <img 
+                        <Link to="/" className="flex items-center gap-2">
+                            <img 
                             src="/academia-impuls/logo.png" 
                             alt="Acadèmia Impuls Logo" 
                             className="h-16 w-16 object-contain" 
-                        />
-                        <h2 className="text-lg font-bold text-slate-900 dark:text-white">Impuls Acadèmia</h2>
+                            />
+                            <h2 className="text-lg font-bold text-slate-900 dark:text-white">Impuls Acadèmia</h2>
+                        </Link>
                     </div>
                 </div>
                 <p className="mt-8 text-center text-sm text-slate-500 dark:text-slate-400">© 2024 Acadèmia Impuls. Tots els drets reservats.</p>
