@@ -28,8 +28,8 @@ Workflow for editing your site
 
 Before making any changes, pull the latest code so your local project matches GitHub:
 
-`git checkout main          # make sure you’re on main`
-`git pull origin main       # get the latest version from GitHub`
+`git checkout main`          # make sure you’re on main
+`git pull origin main`       # get the latest version from GitHub
 
 2️⃣ Make your changes
 
@@ -67,16 +67,6 @@ This generates the dist/ folder.
 `npm run preview` # preview de com es veuria GitHub Pages els fitxers 
 
 
-6️⃣ Deploy to GitHub Pages
-
-Option A: Manual way (what you’re doing now)
-
-`cd dist`
-`git add .`
-`git commit -m "Deploy new build"`
-`git push origin gh-pages --force`
-`cd ..`
-
 7️⃣ Visualitzar Web amb GitHub
 Despres del `npm run build` i des del directori principal, he de fer:
 
@@ -92,6 +82,11 @@ Despres del `npm run build` i des del directori principal, he de fer:
 
  `git push origin gh-pages --force`  # pujar-ho a GitHub
 
+7️⃣ Tornar a main per seguir treballant
+`git checkout main`
+
+
+
 
 
 👉 Check your site
@@ -102,3 +97,14 @@ https://nseguividal.github.io/academia-impuls/
 
 
 (Wait 1–2 minutes for GitHub Pages to refresh.)
+
+
+
+MANERA MENYS SEGURA DE FER-HO, deixaré de fer-ho: 
+6️⃣ Deploy to GitHub Pages
+
+`cd dist`
+`git add .`
+`git commit -m "Deploy new build"`
+`git push origin gh-pages --force`
+`cd ..`
