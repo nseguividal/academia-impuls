@@ -56,7 +56,9 @@ Send your updated source code to GitHub:
 
 Create a new version of the static site:
 
-`npm run build`
+`npm install`      # només si no tens els node_modules actualitzats
+
+`npm run build`   # genera la carpeta dist/ amb la web estàtica
 
 
 This generates the dist/ folder.
