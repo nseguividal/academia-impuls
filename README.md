@@ -23,12 +23,13 @@ View your app in AI Studio: https://ai.studio/apps/drive/1uWFsG-7z30TddCZd5aMkHv
 
 
 Workflow for editing your site
+
 1️⃣ Start working (always sync first!)
 
 Before making any changes, pull the latest code so your local project matches GitHub:
 
-git checkout main          # make sure you’re on main
-git pull origin main       # get the latest version from GitHub
+`git checkout main          # make sure you’re on main`
+`git pull origin main       # get the latest version from GitHub`
 
 2️⃣ Make your changes
 
@@ -42,20 +43,20 @@ Update styles, etc.
 
 Commit your changes to main:
 
-git add .
-git commit -m "Add About page"
+`git add .`
+`git commit -m "Add About page"`
 
 4️⃣ Push to GitHub
 
 Send your updated source code to GitHub:
 
-git push origin main
+`git push origin main`
 
 5️⃣ Build the production site
 
 Create a new version of the static site:
 
-npm run build
+`npm run build`
 
 
 This generates the dist/ folder.
@@ -64,18 +65,18 @@ This generates the dist/ folder.
 
 Option A: Manual way (what you’re doing now)
 
-cd dist
-git add .
-git commit -m "Deploy new build"
-git push origin gh-pages --force
-cd ..
+`cd dist`
+`git add .`
+`git commit -m "Deploy new build"`
+`git push origin gh-pages --force`
+`cd ..`
 
 
 Option B: Recommended way (simpler) → Use gh-pages package:
 
 Install:
 
-npm install --save-dev gh-pages
+`npm install --save-dev gh-pages`
 
 
 Add to package.json scripts:
@@ -88,7 +89,7 @@ Add to package.json scripts:
 
 Deploy with:
 
-npm run deploy
+`npm run deploy`
 
 
 👉 This automatically builds and pushes dist/ to gh-pages without needing to cd dist.
