@@ -70,6 +70,28 @@ This generates the dist/ folder.
 7️⃣ Visualitzar Web amb GitHub
 Despres del `npm run build` i des del directori principal, he de fer:
 
+Mètode directe:
+
+`npm run deploy`  # puja directament el que hi ha dins dist a la branca gh-pages
+
+
+7️⃣ Tornar a main per seguir treballant
+`git checkout main`
+
+
+
+👉 Check your site
+
+Go to:
+
+https://nseguividal.github.io/academia-impuls/
+
+
+(Wait 1–2 minutes for GitHub Pages to refresh.)
+
+
+Mètode extra que ja no cal del punt 7 (Visualitzar Web amb GitHub):
+
  `git checkout gh-pages`
 
 ⚠️ Si t’avisa de “local changes would be overwritten”, fes: `git add .` i `git commit -m "Save changes"`  # per guardar-ho abans
@@ -82,21 +104,6 @@ Despres del `npm run build` i des del directori principal, he de fer:
 
  `git push origin gh-pages --force`  # pujar-ho a GitHub
 
-7️⃣ Tornar a main per seguir treballant
-`git checkout main`
-
-
-
-
-
-👉 Check your site
-
-Go to:
-
-https://nseguividal.github.io/academia-impuls/
-
-
-(Wait 1–2 minutes for GitHub Pages to refresh.)
 
 
 
