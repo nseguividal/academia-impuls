@@ -81,6 +81,8 @@ Option A: Manual way (what you’re doing now)
 Despres del `npm run build` i des del directori principal, he de fer:
 
  `git checkout gh-pages`
+
+⚠️ Si t’avisa de “local changes would be overwritten”, fes: `git add .` i `git commit -m "Save changes"`  # per guardar-ho abans
  
  `cp -r dist/* .`  # Copiar els fitxers del build (dist) a gh-pages
 
