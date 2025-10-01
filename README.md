@@ -60,6 +60,8 @@ Create a new version of the static site:
 
 `npm run build`   # genera la carpeta dist/ amb la web estàtica
 
+`npm run preview` # preview de com es veuria GitHub Pages els fitxers 
+
 
 This generates the dist/ folder.
 
