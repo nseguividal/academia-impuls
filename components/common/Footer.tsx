@@ -11,14 +11,14 @@ const Footer: React.FC = () => {
                         <div className="mt-4 flex space-x-4 text-gray-600 dark:text-gray-400">
                             <a href="https://www.instagram.com/nom_del_compte" target="_blank" rel="noopener noreferrer">
                                 <img 
-                                    src="/academia-impuls/instagram-logo.png" 
+                                    src="/impulsbatxillerat/instagram-logo.png" 
                                     alt="Instagram logo" 
                                     className="h-8 w-8 object-contain" 
                                 />
                             </a>
                             <a href="https://www.youtube.com/channel/ID_del_canal" target="_blank" rel="noopener noreferrer">
                                 <img 
-                                    src="/academia-impuls/youtube-logo.png" 
+                                    src="/impulsbatxillerat/youtube-logo.png" 
                                     alt="Youtube logo" 
                                     className="h-8 w-8 object-contain" 
                                 />
@@ -33,8 +33,8 @@ const Footer: React.FC = () => {
                     <div className="flex items-center gap-2">
                         <Link to="/" className="flex items-center gap-2">
                             <img 
-                            src="/academia-impuls/logo.png" 
-                            alt="Acadèmia Impuls Logo" 
+                            src="/impulsbatxillerat/logo.png" 
+                            alt="ImpulsBatxillerat Logo" 
                             className="h-16 w-16 object-contain" 
                             />
                             <h2 className="text-lg font-bold text-slate-900 dark:text-white">Impuls Acadèmia</h2>
