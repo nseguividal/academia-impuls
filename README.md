@@ -82,7 +82,7 @@ Mètode directe:
 
 Go to:
 
-https://nseguividal.github.io/academia-impuls/
+https://nseguividal.github.io/impulsbatxillerat/
 
 
 (Wait 1–2 minutes for GitHub Pages to refresh.)
